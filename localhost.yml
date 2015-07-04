@@ -86,7 +86,13 @@
       shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
       args:
         creates: ~/.oh-my-zsh/
-    #
+
+    # gvm
+    - name: gvm
+      shell: curl -s get.gvmtool.net | bash
+      args:
+        creates: ~/.gvm
+
     # Ricty
     - name: xquartz (for Ricty)
       homebrew_cask: name=xquartz
