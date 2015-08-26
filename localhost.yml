@@ -15,6 +15,7 @@
       - { name: python }
       - { name: ansible }
       - { name: coreutils }
+      - { name: docker }
       - { name: git }
       - { name: zsh, install_options: disable-etcdir }
       - { name: wget }
@@ -30,6 +31,7 @@
       - { name: tig }
       - { name: sbt }
       - { name: source-highlight }
+      - { name: heroku-toolbelt }
     homebrew_cask_packages:
       - { name: iterm2 }
       - { name: seil }
